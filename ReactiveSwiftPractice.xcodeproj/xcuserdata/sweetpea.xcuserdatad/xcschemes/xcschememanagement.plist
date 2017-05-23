@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ReactiveSwiftPracice-iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ReactiveSwiftPractice.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>EC699E5B1ED4AB4200C7A7AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC699E781ED4ADEB00C7A7AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
