@@ -19,6 +19,7 @@
 		EC699E801ED4ADEB00C7A7AF /* ReactiveSwiftPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC699E791ED4ADEB00C7A7AF /* ReactiveSwiftPractice.framework */; };
 		EC699E811ED4ADEB00C7A7AF /* ReactiveSwiftPractice.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC699E791ED4ADEB00C7A7AF /* ReactiveSwiftPractice.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EC699E861ED4AE3F00C7A7AF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC699E711ED4ACFB00C7A7AF /* Person.swift */; };
+		ECF9FBD61ED6175B0085D98E /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9FBD51ED6175B0085D98E /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		EC699E791ED4ADEB00C7A7AF /* ReactiveSwiftPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveSwiftPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC699E7B1ED4ADEB00C7A7AF /* ReactiveSwiftPracice-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactiveSwiftPracice-iOS.h"; sourceTree = "<group>"; };
 		EC699E7C1ED4ADEB00C7A7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF9FBD51ED6175B0085D98E /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				EC699E6B1ED4AB4200C7A7AF /* Info.plist */,
 				EC699E711ED4ACFB00C7A7AF /* Person.swift */,
 				EC699E731ED4AD7700C7A7AF /* Learnin.playground */,
+				ECF9FBD51ED6175B0085D98E /* Secrets.swift */,
 			);
 			path = ReactiveSwiftPractice;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC699E721ED4ACFB00C7A7AF /* Person.swift in Sources */,
+				ECF9FBD61ED6175B0085D98E /* Secrets.swift in Sources */,
 				EC699E621ED4AB4200C7A7AF /* ViewController.swift in Sources */,
 				EC699E601ED4AB4200C7A7AF /* AppDelegate.swift in Sources */,
 			);
@@ -594,6 +598,7 @@
 				EC699E841ED4ADEB00C7A7AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
