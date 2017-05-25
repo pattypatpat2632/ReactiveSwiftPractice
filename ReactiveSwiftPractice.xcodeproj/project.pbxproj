@@ -20,6 +20,7 @@
 		EC699E811ED4ADEB00C7A7AF /* ReactiveSwiftPractice.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC699E791ED4ADEB00C7A7AF /* ReactiveSwiftPractice.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EC699E861ED4AE3F00C7A7AF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC699E711ED4ACFB00C7A7AF /* Person.swift */; };
 		ECF9FBD61ED6175B0085D98E /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9FBD51ED6175B0085D98E /* Secrets.swift */; };
+		ECF9FBD91ED626530085D98E /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF9FBD81ED626530085D98E /* CustomObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		EC699E7B1ED4ADEB00C7A7AF /* ReactiveSwiftPracice-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactiveSwiftPracice-iOS.h"; sourceTree = "<group>"; };
 		EC699E7C1ED4ADEB00C7A7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECF9FBD51ED6175B0085D98E /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		ECF9FBD71ED626530085D98E /* ReactiveSwiftPractice-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactiveSwiftPractice-Bridging-Header.h"; sourceTree = "<group>"; };
+		ECF9FBD81ED626530085D98E /* CustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 				EC699E711ED4ACFB00C7A7AF /* Person.swift */,
 				EC699E731ED4AD7700C7A7AF /* Learnin.playground */,
 				ECF9FBD51ED6175B0085D98E /* Secrets.swift */,
+				ECF9FBD81ED626530085D98E /* CustomObject.m */,
+				ECF9FBD71ED626530085D98E /* ReactiveSwiftPractice-Bridging-Header.h */,
 			);
 			path = ReactiveSwiftPractice;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 					EC699E5B1ED4AB4200C7A7AF = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 992D98C4QP;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					EC699E781ED4ADEB00C7A7AF = {
@@ -357,6 +363,7 @@
 				EC699E721ED4ACFB00C7A7AF /* Person.swift in Sources */,
 				ECF9FBD61ED6175B0085D98E /* Secrets.swift in Sources */,
 				EC699E621ED4AB4200C7A7AF /* ViewController.swift in Sources */,
+				ECF9FBD91ED626530085D98E /* CustomObject.m in Sources */,
 				EC699E601ED4AB4200C7A7AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,11 +507,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 992D98C4QP;
 				INFOPLIST_FILE = ReactiveSwiftPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SweetPea.ReactiveSwiftPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactiveSwiftPractice/ReactiveSwiftPractice-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -515,11 +525,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 992D98C4QP;
 				INFOPLIST_FILE = ReactiveSwiftPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SweetPea.ReactiveSwiftPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactiveSwiftPractice/ReactiveSwiftPractice-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
